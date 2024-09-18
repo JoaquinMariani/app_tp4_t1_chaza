@@ -1,0 +1,547 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.blanco {
+    color: white;
+
+}
+
+main {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+footer {
+    width: 90%;
+    height: 3rem;
+    background-color: white;
+    position: fixed;
+    left: 5%;
+    bottom: .5rem;
+    border-radius: .75rem;
+    box-shadow:  2px 4px 8px rgb(99, 98, 98);
+    display: flex;
+
+    .campo{
+        width: 25%;
+        height: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.landing {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/playa.jpg");
+    background-size: cover;
+
+    flex-direction: column;
+
+
+    .titulo {
+        width: 100%;
+        height: 10%;
+
+        text-align: center;
+    }
+
+    .desc {
+        width: 100%;
+        height: 10%;
+
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botones {
+        width: 100%;
+        height: 10%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            width: 50%;
+            height: 60%;
+            background-color: rgb(223, 129, 67);
+            border-radius: 30px;
+            border: none;
+            color: white;
+
+
+        }
+
+
+    }
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    
+
+
+    header {
+        width: 100%;
+        height: 40%;
+        
+
+        .cabecera {
+            width: 100%;
+            height: 20%;
+            display: flex;
+
+            .logo {
+                width: 15%;
+                height: 100%;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: xx-large;
+            }
+
+            .titulo {
+                width: 85%;
+                height: 100%;
+                
+                display: flex;
+                align-items: center;
+            }
+        }
+
+
+        .buscador {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            input {
+                width: 90%;
+                height: 50%;
+                border-radius: 20px;
+                border: none;
+                box-shadow:2px 4px 15px rgba(0, 0, 0, 0.568);
+                padding-left: 15px;
+            }
+        }
+
+        .transporte {
+            width: 100%;
+            height: 8rem;
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            
+        }
+
+        .opc {
+            width: 25%;
+            height: 80%;
+            border-radius: 30px;
+            margin-left: 5%;
+            display: inline-block;
+            margin-top: 3%;
+            box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.527);
+            box-sizing: border-box;
+            overflow: hidden;
+            .a{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: xx-large;
+            }
+            
+        }
+
+
+
+    }
+
+    .titulo {
+        width: 100%;
+        height: 5%;
+        
+        display: flex;
+        align-items: center;
+
+
+        .title {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+
+        }
+
+        .more {
+            width: 20%;
+            height: 100%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .cards {
+        width: 100%;
+        height: 30%;
+        
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        
+        
+
+
+
+        .card {
+            width: 40%;
+            height: 90%;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 2px 4px 8px rgb(105, 98, 98);
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 3%;
+            margin-left: 5px;
+            box-sizing: border-box; 
+            overflow: hidden; 
+
+
+            .img{
+                width: 100%;
+                height: 130px;
+                
+                border-radius: 20px;
+            }
+            .desc{
+                width: 100%;
+                height: 50px;
+                
+
+                .nombre{
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 6px;
+                    
+                }
+                .precio{
+                    width: 100%;
+                    height: 50%;
+                
+                    display: flex;
+                    align-items: flex-start;
+                    padding-left: 8px;
+                }
+            }
+        }
+
+    }
+
+
+}
+
+.precompra {
+    width: 100%;
+    height: 100%;
+    
+
+    header {
+        width: 100%;
+        height: 40%;
+        background-image: url("./img/playa.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        .fav {
+            width: 40px;
+            height: 40px;
+            border-radius: 80px;
+            background-color: rgba(255, 255, 255, 0.836);
+            position: absolute;
+            bottom: -20px;
+            right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .nombre {
+        width: 100%;
+        height: 80px;
+        
+
+        .titulo {
+            width: 100%;
+            height: 50%;
+            
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+
+        }
+
+        .overflow {
+            width: 100%;
+            height: 50%;
+        
+            display: flex;
+
+            .review {
+                width: 120px;
+                height: 100%;
+        
+                display: flex;
+                align-items: center;
+                padding-left: 20px;
+            }
+        }
+
+    }
+
+    .data {
+        width: 100%;
+        height: 80px;
+        
+        display: flex;
+        justify-content: center;
+
+        .cont-dato {
+            width: 30%;
+            height: 90%;    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            box-shadow: 2px 1px 8px rgb(68, 68, 68);
+            margin-left: 10px;
+            
+        }
+
+        .dato {
+            width: 80%;
+            height: 90%;
+            
+            display: flex;
+
+            .img {
+                width: 50%;
+                height: 100%;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .desc {
+                width: 50%;
+                height: 100%;
+                
+
+                .num {
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    align-items: end;
+                    justify-content: center;
+                }
+
+                .text {
+                    width: 100%;
+                    height: 50%;
+                
+                }
+            }
+        }
+
+       
+    }
+    .texto{
+        width: 100%;
+        height: 160px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .desc{
+            width: 90%;
+            height: 150px;
+            
+        }
+    }
+
+    .compra{
+        width: 100%;
+        height: 80px;
+        background-color: rgb(24, 13, 173);
+        position: relative;
+        border-radius: 30px;
+
+        .precio{
+            width: 130px;
+            height: 40px;
+            position: absolute;
+            left: 5px;
+            bottom: 20px;
+            
+            margin-left: 30px;
+
+            .total{
+                width: 100%;
+                height: 50%;
+                
+            }
+        }
+
+
+
+        .boton{
+            width: 150px;
+            height: 50px;
+            position: absolute;
+            right: 20px;
+            bottom: 14px;
+            background-color: aliceblue;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+
+            .precio-letra{
+                width: 100%;
+                height: 50%;
+                
+            }
+        }
+    }
+}
+
+.perfil{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(182, 194, 194);
+    
+
+    header{
+        width: 100%;
+        height: 40%;
+        background-color: rgb(179, 171, 171);
+        position: relative;
+        
+
+        .avatar{
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            background-image: url("./img/deadpool.jpg");
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            bottom: 70px;
+            left: 115px;
+        }
+
+        .info-perfil{
+            width: 80%;
+            height: 60px;
+            background-color: rgb(233, 233, 229);
+            position: absolute;
+            left: 40px;
+            bottom: -20px;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 20px;
+
+            .info{
+                width: 33%;
+                height: 100%;
+                
+
+                .num{
+                    width: 100%;
+                    height: 60%;
+                    
+                    display: flex;
+                    align-items: end;
+                    justify-content: center;
+                }
+                .text{
+                    width: 100%;
+                    height: 40%;
+                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .cont-tarjetas{
+        width: 90%;
+        height: 45%;
+        margin-left: 20px;
+        margin-top: 30px;
+        
+        overflow-y: auto;
+
+        .tarjeta{
+            width: 270px;
+            height: 70px;
+            background-color: white;
+            margin: 20px 0 0 20px;
+            display: flex;
+
+            .ft{
+                width: 80px;
+                height: 100%;
+                background-image: url("./img/paris.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            .desc{
+                width: 190px;
+                height: 100%;
+                background-color: white;
+
+                .title{
+                    width: 100%;
+                    height: 30px;
+        
+                }
+                .texto{
+                    width: 100%;
+                    height: 40px;
+        
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "paisaje": {
+      "imagen": "https://www.example.com/paisaje.jpg",
+      "nombre_lugar": "Valle de los Tres Picos",
+      "precio": 150,
+      "descripcion": "Un hermoso valle con vistas panorámicas de montañas y lagos cristalinos. Ideal para caminatas y fotografía."
+    }
+  }
